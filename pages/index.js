@@ -1,17 +1,13 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-export default function Home() {
+export default function Home(){
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-        <h1 className="title">
-          Learn to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+    <div>
+      <div>
+        <h1>Home</h1>
+        <p>Does getServerSideProps render an error pageIf an error is thrown inside getServerSideProps, it will show the pages/500.js file. Check out the documentation for 500 page to learn more on how to create it. During development this file will not be used and the dev overlay will be shown instead.</p>
+        <p>If an error is thrown inside getServerSideProps, it will show the pages/500.js file. Check out the documentation for 500 page to learn more on how to create it. During development this file will not be used and the dev overlay will be shown instead.</p>
+      </div>
     </div>
-  );
+  )
 }
